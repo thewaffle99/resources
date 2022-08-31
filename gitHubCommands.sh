@@ -23,7 +23,7 @@
 # git create new branch
   git checkout -b {name-of-branch}
 
-# when checking out lin the future no -b
+# when checking out in the future no -b
   git checkout {name-of-branch}
 
 # git add when done with work
