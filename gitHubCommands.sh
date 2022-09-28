@@ -1,19 +1,31 @@
-# git init
+# FOR NEW PROJECTS
+  # Go to GitHub and create a repository on GitHub named your project folder name 
+  # Go to the parent of the project in your terminal and proceed with the following
+  # it should be copied from Github and pasted into the terminal essentially
+  echo "# {repository name}" >> README.md
   git init
+  git add README.md
+  git commit -m {add a descriptive}
+  git branch -M main
+  git remote add origin {repository link}
+  git push -u origin main
 
-# FOR EXISTING PROJECT (Created)
-# create a repository on GitHub named your project folder name
-#
-# inside folder and create a repository
-  git init 
+# FROM TEMPLATE FOLDER
+  # if you are cloning a git repository
+  # git clone with link into the parent folder you want your project to live in terminal
+    git clone {url}
+  # then re-initialize the git
+    git init
+  # Go to GitHub and create a NEW repository on GitHub named your project folder name 
+  # then do the following to create a commit to the new repository
+  git commit -m {add a descriptive}
+  git branch -M main
+  git add *
+  git remote add origin {NEW repository link}
+  git push -u origin main
 
-# FROM TEMPLATE FOLDER, you don't have to re-initialize if you're already have a .git directly
-    git branch -M main
-    git add *
-    git commit -m {add a descriptive}
-    git remote add origin {repository link}
-    git push -u origin main
 
+Misc Commands and their uses:
 # git clone with link
   git clone {url}
 
@@ -44,3 +56,5 @@
 # force remove directory(DO AT OWN RISK)
 
   rm -rf {foldername or filename}
+
+  
