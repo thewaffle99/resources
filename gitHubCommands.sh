@@ -1,7 +1,9 @@
 # FOR NEW PROJECTS
-  # Go to GitHub and create a repository on GitHub named your project folder name 
-  # Go to the parent of the project in your terminal and proceed with the following
-  # it should be copied from Github and pasted into the terminal essentially
+  # Go to GitHub and create a repository on GitHub named your project folder name
+  # DO NOT CLICK THE READ ME
+  # Anything below in {} needs to be replaced with 
+  # Go to the parent folder of the project in your terminal and proceed with the following
+  # Below should be copied from Github and pasted into the terminal essentially
   echo "# {repository name}" >> README.md
   git init
   git add README.md
