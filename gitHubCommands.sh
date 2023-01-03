@@ -59,6 +59,4 @@ Misc Commands and their uses:
 
   rm -rf {foldername or filename}
 
-  This is a test of the emergencty Broadcast System
-
-  Hello This is still a test
+Fixed
